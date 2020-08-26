@@ -9,11 +9,7 @@ end
 
 
 def not_safe?(speed)
-	if speed > 60
-	  return true
-	else 
-	  return false
-	end
+	if (40..60).include?(speed) ? true : false
 end
 	
 
