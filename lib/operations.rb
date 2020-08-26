@@ -1,5 +1,5 @@
 def unsafe?(speed)
-  if (40..60).include?(speed)
+  if speed < 40 || speed > 60
     
   end
 end
