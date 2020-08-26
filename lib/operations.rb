@@ -9,7 +9,7 @@ end
 
 
 def not_safe?(speed)
-	if (40..60).include?(speed) ? false : true
+	if (40..60).include?(speed) ? return false : return true
   end
 end
 
